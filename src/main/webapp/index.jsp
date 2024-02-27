@@ -79,7 +79,7 @@
 
 <form action="<%= request.getContextPath() %>/main" method="post">
     <div class="container">
-        <h1>New user Register for Facebook Lite</h1>
+        <h1>New user Register for Instagram Lite</h1>
         <p>Please fill in this form to create an account.</p>
         <hr>
 
@@ -109,7 +109,7 @@
 </form>
 
 <div class="container">
-    <h1>Login to Facebook Lite</h1>
+    <h1>Login to Instagram Lite</h1>
     <form action="<%= request.getContextPath() %>/login" method="post">
         <label for="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" name="email" required>
